@@ -1,5 +1,5 @@
 {
-  "name": "corner-smoothing",
+  "name": "tailwind-corner-smoothing",
   "version": "1.1.0",
   "description": "Adjusts a rounded corner to create a continuous curve.",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "format": "prettier --write --loglevel=error . !CHANGELOG.md",
     "test": "jest",
     "test:watch": "jest --watch",
-    "release": "standard-version",
+    "release": "npx tsc index.ts && standard-version",
     "postrelease": "git push --follow-tags origin main && npm publish"
   },
   "husky": {

@@ -7,7 +7,7 @@
 Install the plugin from npm:
 
 ```sh
-$ npm install corner-smoothing
+$ npm install tailwind-corner-smoothing
 ```
 
 # Usage
@@ -15,7 +15,7 @@ $ npm install corner-smoothing
 ```js
 // tailwind.config.js
 module.exports = {
-  plugins: [require('corner-smoothing')],
+  plugins: [require('tailwind-corner-smoothing')],
 };
 ```
 
