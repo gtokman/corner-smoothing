@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/gtokman/corner-smoothing/compare/v1.1.0...v1.1.1) (2024-11-05)
+
+
+### Bug Fixes
+
+* update the package name ([8d80c6d](https://github.com/gtokman/corner-smoothing/commit/8d80c6d0918bd02e8887ade8f2357427866b14ea))
+* updates ([c33ad22](https://github.com/gtokman/corner-smoothing/commit/c33ad22b62db02b59998c8620c7e0bb29f5885f3))
+
 ## 1.1.0 (2024-11-05)
 
 

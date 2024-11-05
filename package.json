@@ -1,6 +1,6 @@
 {
   "name": "tailwind-corner-smoothing",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Adjusts a rounded corner to create a continuous curve.",
   "main": "index.js",
   "files": [
