@@ -1,59 +1,46 @@
 # corner-smoothing
 
-> Adjusts a rounded corner to create a continuous curve.
+> Adjusts a rounded corner to create a continuous curve. Inspired by [Rob](https://github.com/robb/Continuous-Corners-CSS).
+
+## Installation
 
 Install the plugin from npm:
 
-```
+```sh
 $ npm install corner-smoothing
 ```
 
-Then add the plugin to your `tailwind.config.js` file:
+# Usage
 
 ```js
 // tailwind.config.js
 module.exports = {
   theme: {
-    // ...
-    // Optional. Your plugin might not have any options at all.
-    cornerSmoothing: {
-      // ...
-      YOUR_PLUGIN_CUSTOM_OPTION: true,
-      // ...
+    extend: {
+      cornerSmoothing: {
+        maskPath: './mask@1x.png',
+        maskPath2x: './mask@2x.png',
+        maskPath3x: './mask@3x.png',
+        sizes: {
+          sm: '25px',
+          md: '50px',
+          lg: '75px',
+          xl: '100px', // Custom size example
+        },
+      },
     },
   },
-  variants: {
-    // ...
-    // Optional. Your plugin might not have any variants at all.
-    cornerSmoothing: ['responsive'],
-    // ...
-  },
-  plugins: [
-    // ...
-    require('corner-smoothing'),
-    // ...
-  ],
+  plugins: [require('corner-smoothing')],
 };
 ```
 
-This plugin will generate following CSS:
+# Example
 
-```css
-/* ... */
-.example-utility-class {
-  display: block;
-}
-
-.custom-utility-class {
-  background-color: red;
-}
-/* ... */
+```html
+<div class="smooth-corners-md bg-blue-500">Smooth corners!</div>
+<div class="smooth-corners-xl bg-red-500">Extra smooth corners!</div>
 ```
 
-## License
+# License
 
-corner-smoothing is licensed under the MIT License.
-
-## Credits
-
-Created with [create-tailwind-plugin](https://github.com/Landish/create-tailwind-plugin).
+MIT
