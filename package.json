@@ -18,11 +18,6 @@
     "release": "npx tsc index.ts && standard-version",
     "postrelease": "git push --follow-tags origin main && npm publish"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint:fix && npm run format && npm run test"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gtokman/corner-smoothing.git"
