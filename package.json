@@ -4,10 +4,7 @@
   "description": "Adjusts a rounded corner to create a continuous curve.",
   "main": "index.js",
   "files": [
-    "index.js",
-    "assets/masks/mask@1x.png",
-    "assets/masks/mask@2x.png",
-    "assets/masks/mask@3x.png"
+    "index.js"
   ],
   "scripts": {
     "lint": "eslint .",
@@ -49,6 +46,7 @@
     "postcss": "^8.1.9",
     "prettier": "^2.2.0",
     "standard-version": "^9.5.0",
-    "tailwindcss": "latest"
+    "tailwindcss": "latest",
+    "fs": "^0.0.1-security"
   }
 }
