@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Adjusts a rounded corner to create a continuous curve.",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "assets/masks/mask@1x.png",
+    "assets/masks/mask@2x.png",
+    "assets/masks/mask@3x.png"
+  ],
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
