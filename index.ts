@@ -15,16 +15,16 @@ module.exports = plugin(
       utilities[`.smooth-corners-${key}`] = {
         '@supports (mask-border-width: 50px)': {
           'mask-border': `url("${
-            options.maskPath || './assets/masks/mask@1x.png'
+            options.maskPath || '/masks/mask@1x.png'
           }") 49% fill / ${size}`,
           '@media (min-resolution: 2x)': {
             'mask-border': `url("${
-              options.maskPath2x || './assets/masks/mask@2x.png'
+              options.maskPath2x || '/masks/mask@2x.png'
             }") 49% fill / ${size}`,
           },
           '@media (min-resolution: 3x)': {
             'mask-border': `url("${
-              options.maskPath3x || './assets/masks/mask@3x.png'
+              options.maskPath3x || '/masks/mask@3x.png'
             }") 49% fill / ${size}`,
           },
         },
@@ -36,9 +36,9 @@ module.exports = plugin(
   {
     theme: {
       cornerSmoothing: {
-        maskPath: './assets/masks/mask@1x.png',
-        maskPath2x: './assets/masks/mask@2x.png',
-        maskPath3x: './assets/masks/mask@3x.png',
+        maskPath: '/masks/mask@1x.png',
+        maskPath2x: '/masks/mask@2x.png',
+        maskPath3x: '/masks/mask@3x.png',
         sizes: {
           sm: '25px',
           md: '60px',

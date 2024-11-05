@@ -19,6 +19,6 @@ describe('Smooth Corners Plugin', () => {
       utilities['.smooth-corners-md']['@supports (mask-border-width: 50px)'][
         'mask-border'
       ]
-    ).toBe('url("./assets/masks/mask@1x.png") 49% fill / 60px');
+    ).toBe('url("/masks/mask@1x.png") 49% fill / 60px');
   });
 });

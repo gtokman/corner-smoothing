@@ -7,7 +7,9 @@
 Install the plugin from npm:
 
 ```sh
-$ npm install tailwind-corner-smoothing
+npm install tailwind-corner-smoothing --save-dev
+
+mkdir -p ./masks && cp -r ./node_modules/corner-smoothing/masks/* ./masks/
 ```
 
 # Usage
