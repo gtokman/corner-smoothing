@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/gtokman/corner-smoothing/compare/v1.1.1...v1.2.0) (2024-11-05)
+
+
+### Features
+
+* convert to use base64 ([a8b214c](https://github.com/gtokman/corner-smoothing/commit/a8b214c58ca016e8ca5a996efbe993cfa3c41712))
+
+
+### Bug Fixes
+
+* update ([e5c2588](https://github.com/gtokman/corner-smoothing/commit/e5c2588db59bc8f33b9adeeb69269739a1006371))
+* updates ([a2fde35](https://github.com/gtokman/corner-smoothing/commit/a2fde352a188ae9705ed65ce60228afe2db3facf))
+* updates to where the assets live ([7575fe1](https://github.com/gtokman/corner-smoothing/commit/7575fe19842f6f0d2ed4e38dab55327df70c765a))
+
 ### [1.1.1](https://github.com/gtokman/corner-smoothing/compare/v1.1.0...v1.1.1) (2024-11-05)
 
 
