@@ -41,7 +41,7 @@ module.exports = plugin(
         maskPath3x: './assets/masks/mask@3x.png',
         sizes: {
           sm: '25px',
-          md: '50px',
+          md: '60px',
           lg: '75px',
         },
       },
