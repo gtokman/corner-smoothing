@@ -1,5 +1,3 @@
-# Corner Smoothing
-<br/>
 <div>
  <a href="https://www.npmjs.com/package/tailwind-corner-smoothing">
   <img src="https://img.shields.io/npm/dm/tailwind-corner-smoothing" alt="npm downloads" />
@@ -11,7 +9,8 @@
   </a>
 </div>
 
-<br/>
+# Corner Smoothing
+
 <img width="695" alt="Frame 1" src="https://github.com/user-attachments/assets/1170cfc9-14b9-4742-abe7-14d3bd2043bf" />
 
 > Adjusts a rounded corner to create a continuous curve. Inspired by [Rob](https://github.com/robb/Continuous-Corners-CSS).
