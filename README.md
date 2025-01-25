@@ -13,7 +13,17 @@ npm install tailwind-corner-smoothing --save-dev
 ```
 
 # Usage
+v4
 
+```js
+// Global.css / App.css
+
+@plugin "tailwind-corner-smoothing";
+
+```
+
+
+v3
 ```js
 // tailwind.config.js
 module.exports = {
