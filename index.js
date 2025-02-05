@@ -33,6 +33,7 @@ module.exports = plugin(function (_a) {
             maskPath2x: "".concat(base64Mask2x),
             maskPath3x: "".concat(base64Mask3x),
             sizes: {
+                xs: '10px',
                 sm: '25px',
                 md: '60px',
                 lg: '75px',
